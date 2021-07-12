@@ -9,7 +9,6 @@ body {
   background-color: #F8F1F1;
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -98,7 +97,7 @@ body {
 
 .image{
   width: 100%;
-  height: 42rem;
+  height: 93vh;
 }
 
 .text{
@@ -186,10 +185,16 @@ main {
 }
 
 .images-pair__container p {
+  width: 50%;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 3px;
   text-align: center;
+}
+
+.images-pair__container .text_container{
+  display: flex;
+  justify-content: center;
 }
