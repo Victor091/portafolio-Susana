@@ -198,3 +198,23 @@ main {
   display: flex;
   justify-content: center;
 }
+
+#footer{
+  background-color: #F8F1F1;
+  text-align: center;
+  padding: 7% 32%;
+}
+
+.icon-footer{
+  font-size: 1.5rem;
+  margin-right: 15px;
+  margin-bottom: 3%;
+  border: hidden;
+  background-color: #F8F1F1;
+  text-decoration: none;
+  color:#000;
+}
+
+.icon:hover{
+  color: blue;
+}
