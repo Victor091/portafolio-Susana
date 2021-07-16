@@ -9,6 +9,13 @@ body {
   background-color: #F8F1F1;
 }
 
+.mar{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -217,4 +224,9 @@ main {
 
 .icon:hover{
   color: blue;
+}
+
+.semblanza{
+
+  width: 100%;
 }
