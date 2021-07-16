@@ -66,6 +66,10 @@ body {
 /* Featurettes
 ------------------------- */
 
+.main__features {
+  margin-top: 35px;
+}
+
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
@@ -145,7 +149,11 @@ main {
   letter-spacing: 5px;
 }
 
-.card__container-right .text-align{
+.card__container-right .text-align {
+  text-align: right;
+}
+
+.card__container-right-vertical .text-align{
   text-align: right;
 }
 
@@ -170,6 +178,14 @@ main {
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 5px;
+}
+
+#dino .card__image{
+  width: 55%;
+}
+
+#dino .card__text{
+  width: 40%;
 }
 
 .images-pair__container {
@@ -229,4 +245,18 @@ main {
 .semblanza{
 
   width: 100%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
